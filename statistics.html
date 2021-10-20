@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8" />
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+   <!-- ==================== -META-TAG-SEO-START- ==================== -->
+   <meta name="copyright" content="Информация о вашей фирме">
+   <meta name="keywords" content="Ваши ключевые слова">
+   <meta name="description" content="Описание Вашей страницы">
+   <!-- ==================== -META-TAG-SEO-END- ==================== -->
+   <title>Статистика</title>
+   <link rel="icon" href="./assets/img/favicon/favicon.svg">
+   <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header-block d-f j-c-b a-i-c container">
+         <div class="header-block__main d-f a-i-c">
+            <a class="header-block__main--logo" href="index.html">
+               <img src="./assets/img/header/logo-all.svg" alt="logo">
+            </a>
+            <ul class="header-block__main--menu d-f j-c-b a-i-c">
+               <li class="header-block__main--menu-item d-f a-i-c">
+                  <a class="header-block__main--menu-item__link active" href="#">Кабинет WB</a>
+                  <i class="icon icon-caret header-block__main--menu-item__icon"></i>
+                  <ul class="header-block__main--menu-item__dropdown">
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Сводка</a>
+                     </li>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Продажи и заказы</a>
+                     </li>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">География заказов</a>
+                     </li>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Подключения</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header-block__main--menu-item d-f a-i-c">
+                  <a class="header-block__main--menu-item__link" href="#">Группы</a>
+               </li>
+               <li class="header-block__main--menu-item d-f a-i-c">
+                  <a class="header-block__main--menu-item__link" href="#">Ozon</a>
+                  <i class="icon icon-caret header-block__main--menu-item__icon"></i>
+                  <ul class="header-block__main--menu-item__dropdown">
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Категории</a>
+                     </li>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Поиск</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="header-block__main--menu-item d-f a-i-c">
+                  <a class="header-block__main--menu-item__link" href="#">Кабинет WB</a>
+                  <i class="icon icon-caret header-block__main--menu-item__icon"></i>
+                  <ul class="header-block__main--menu-item__dropdown" data-dropdown-box>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Категории</a>
+                     </li>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Поиск</a>
+                     </li>
+                     <li class="header-block__main--menu-item__dropdown--section">
+                        <a class="header-block__main--menu-item__dropdown--section-link" href="#">Рейтинг
+                           поставщиков</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <div class="header-block__user d-f a-i-c">
+            <div class="header-block__user--search d-f a-i-c">
+               <input class="input header-block__user--search-form focus" type="text" placeholder="Поиск категории">
+               <button class="icon icon-loop header-block__user--search-icon"></button>
+            </div>
+            <div class="header-block__user--item cursor-pointer d-f a-i-c" data-expand-click data-expand="false"
+               data-not-outside-expand data-not-outside>
+               <div class="header-block__user--item-photo">
+                  <img src="./assets/img/header/Ellipse.png" alt="user">
+               </div>
+               <i class="icon icon-arrow header-block__user--item-icon" data-expand-icon data-expand-outside-icon></i>
+               <div class="user-dropdown" hidden data-expand-box data-sub-outside-expand>
+                  <div class="user-dropdown__name">
+                     <span class="user-dropdown__name--circle d-f j-c-c a-i-c"></span>
+                     <p class="user-dropdown__name--details">Алексей</p>
+                     <span class="user-dropdown__name--info">Подписка до 11.10.2021</span>
+                  </div>
+                  <ul class="user-dropdown__list">
+                     <li class="user-dropdown__list--item">
+                        <a href="#" class="user-dropdown__list--item-main d-f a-i-c">
+                           <i class="icon icon-coin user-dropdown__list--item-main__icon"></i>
+                           <p class="user-dropdown__list--item-main__text">Подписка и счета</p>
+                        </a>
+                     </li>
+                     <li class="user-dropdown__list--item">
+                        <a href="#" class="user-dropdown__list--item-main d-f a-i-c">
+                           <i class="icon icon-user user-dropdown__list--item-main__icon"></i>
+                           <p class="user-dropdown__list--item-main__text">Аккаунт</p>
+                        </a>
+                     </li>
+                     <li class="user-dropdown__list--item">
+                        <a href="#" class="user-dropdown__list--item-main d-f a-i-c">
+                           <i class="icon icon-history user-dropdown__list--item-main__icon"></i>
+                           <p class="user-dropdown__list--item-main__text">История запросов</p>
+                        </a>
+                     </li>
+                     <li class="user-dropdown__list--item">
+                        <a href="#" class="user-dropdown__list--item-main d-f a-i-c">
+                           <i class="icon icon-door-open user-dropdown__list--item-main__icon"></i>
+                           <p class="user-dropdown__list--item-main__text">Выход</p>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="statistics main-section container">
+      <div class="statistics-block">
+         <div class="statistics-block__name main-section__block">
+            <div class="statistics-block__name--title d-f j-c-b ">
+               <div class="statistics-block__name--title-main d-f a-i-c">
+                  <div class="statistics-block__name--title-main__img">
+                     <img src="./assets/img/statistic/statistics.png" alt="statistic">
+                  </div>
+                  <div class="statistics-block__name--title-main__text">
+                     <h4 class="statistics-block__name--title-main__text--info">Мельница
+                        ATIKO Kitchen
+                        за 60 дней</h4>
+                     <a class="statistics-block__name--title-main__text--link"
+                        href="https://www.wildberries.ru/catalog/18360968/detail.aspx">https://www.wildberries.ru/catalog/18360968/detail.aspx</a>
+                  </div>
+               </div>
+               <div class="statistics-block__name--title-date d-f a-i-c">
+                  <label class="checked checked-switch d-f a-i-c">
+                     <input type="checkbox" hidden>
+                     <span class="checked-switch__slider d-f a-i-c j-c-b">
+                        <span class="checked-switch__slider--text switch-checked d-none">FBS</span>
+                        <span class="checked-switch__slider--text switch-unchecked">FBS</span>
+                     </span>
+                  </label>
+                  <div class="groups-calendar main-section__block--dates-list__calendar d-f a-i-c">
+                     <i class="icon icon-calendar main-section__block--dates-list__calendar--icon cursor-pointer"></i>
+                     <input class="input-calendar cursor-pointer" name="daterange" type="text"
+                        placeholder="01.04.2021 - 17.04.2021">
+                  </div>
+               </div>
+            </div>
+            <div class="statistics-block__name--number g-t-c-4 d-g g-g-30">
+               <div class="statistics-block__name--number-info statistics-block__name--number-green">
+                  <span class="statistics-block__name--number-info__title ">СУММАРНО ЗА 60 ДНЕЙ</span>
+                  <div class="statistics-block__name--number-info__main d-f a-i-c">
+                     <p class="statistics-block__name--number-info__main--cost">1 642 шт</p>
+                     <i class="icon icon-arrow-right statistics-block__name--number-info__main--icon"></i>
+                     <p class="statistics-block__name--number-info__main--cost">562 194 ₽</p>
+                  </div>
+               </div>
+               <div class="statistics-block__name--number-info statistics-block__name--number-red">
+                  <span class="statistics-block__name--number-info__title">ПОТЕНЦИАЛ / УПУЩЕННАЯ ВЫРУЧКА </span>
+                  <div class="statistics-block__name--number-info__main d-f a-i-c">
+                     <p class="statistics-block__name--number-info__main--cost">749 592 ₽</p>
+                     <i class="icon icon-arrow-right statistics-block__name--number-info__main--icon"></i>
+                     <p class="statistics-block__name--number-info__main--cost">749 592 ₽</p>
+                  </div>
+               </div>
+               <div class="statistics-block__name--number-info statistics-block__name--number-green">
+                  <span class="statistics-block__name--number-info__title">СРЕДНЕЕ (В ДЕНЬ)</span>
+                  <div class="statistics-block__name--number-info__main d-f a-i-c">
+                     <p class="statistics-block__name--number-info__main--cost">27 шт</p>
+                     <i class="icon icon-arrow-right statistics-block__name--number-info__main--icon"></i>
+                     <p class="statistics-block__name--number-info__main--cost">9 369,90 ₽</p>
+                  </div>
+               </div>
+               <div class="statistics-block__name--number-info statistics-block__name--number-green">
+                  <span class="statistics-block__name--number-info__title">СРЕДНЕЕ ПРИ НАЛИЧИИ</span>
+                  <div class="statistics-block__name--number-info__main d-f a-i-c">
+                     <p class="statistics-block__name--number-info__main--cost">36 шт</p>
+                     <i class="icon icon-arrow-right statistics-block__name--number-info__main--icon"></i>
+                     <p class="statistics-block__name--number-info__main--cost">9 369,90 ₽</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="statistics-main d-f">
+         <div class="statistics-main__info">
+            <div class="statistics-main__info--block">
+               <h4 class="statistics-main__info--block-title">Информация о товаре</h4>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name ml-24">
+                     <p class="statistics-main__info--block-parts__name--main">SKU</p>
+                  </div>
+                  <p class="statistics-main__info--block-parts__info statistics-main__info--block-parts__half d-f a-i-c">18360968
+                  </p>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-s">
+                     <i class="icon icon-group statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Группы</p>
+                  </div>
+                  <div class="statistics-main__info--block-parts__add statistics-main__info--block-parts__half">
+                     <div class="statistics-main__info--block-parts__add--details d-i-f a-i-c">
+                        <p class="statistics-main__info--block-parts__add--details-name">ATIKO Kitchen</p>
+                        <button class="icon icon-close statistics-main__info--block-parts__add--details-icon"></button>
+                     </div>
+                     <div class="statistics-main__info--block-parts__add--details d-i-f a-i-c ">
+                        <p class="statistics-main__info--block-parts__add--details-name">В продаже на ВБ</p>
+                        <button class="icon icon-close statistics-main__info--block-parts__add--details-icon"></button>
+                     </div>
+                     <div class="statistics-main__info--block-parts__add--details d-i-f a-i-c">
+                        <p class="statistics-main__info--block-parts__add--details-name">КОНКУРЕНТЫ - Мельница</p>
+                        <button class="icon icon-close statistics-main__info--block-parts__add--details-icon"></button>
+                     </div>
+                     <button class="btn btn-background statistics-main__info--block-parts__add--btn">+ Добавить</button>
+                  </div>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-location statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Название</p>
+                  </div>
+                  <p class="statistics-main__info--block-parts__info statistics-main__info--block-parts__half d-f a-i-c">Мельница
+                  </p>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-location statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Бренд</p>
+                  </div>
+                  <a href="#"
+                     class="statistics-main__info--block-parts__underline statistics-main__info--block-parts__half d-f a-i-c">
+                     ATIKO Kitchen</a>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-dollar statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Цена</p>
+                  </div>
+                  <p class="statistics-main__info--block-parts__info statistics-main__info--block-parts__half d-f a-i-c">333,00 р.
+                  </p>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-dollar statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Цена до скидки</p>
+                  </div>
+                  <p class="statistics-main__info--block-parts__info statistics-main__info--block-parts__half d-f a-i-c">1 000,00
+                     р., скидка 66%</p>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-store statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Поставщик</p>
+                  </div>
+                  <a href="#"
+                     class="statistics-main__info--block-parts__underline statistics-main__info--block-parts__half d-f a-i-c">
+                     Шепарова Марина
+                     Александровна ИП</a>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-time statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Обновлено</p>
+                  </div>
+                  <p class="statistics-main__info--block-parts__info statistics-main__info--block-parts__half d-f a-i-c">
+                     19.04.2021</p>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-time statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Впервые обнаружен</p>
+                  </div>
+                  <p class="statistics-main__info--block-parts__info statistics-main__info--block-parts__half d-f a-i-c">
+                     19.04.2021</p>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name ml-24">
+                     <p class="statistics-main__info--block-parts__name--main">Дополнительно </p>
+                  </div>
+                  <div class="statistics-main__info--block-parts__add statistics-main__info--block-parts__half d-f a-i-c d-f f-w">
+                     <div class="statistics-main__info--block-parts__add--details d-f mt-5 mr-5">
+                        <p class="statistics-main__info--block-parts__add--details-name">Рейтинг: 4,95</p>
+                     </div>
+                     <div class="statistics-main__info--block-parts__add--rating d-f mt-5">
+                        <p class="statistics-main__info--block-parts__add--rating-main">Комментарии: 275</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="statistics-main__info--block-parts d-f j-c-b">
+                  <div class="d-f statistics-main__info--block-parts__name d-f a-i-c">
+                     <i class="icon icon-messages statistics-main__info--block-parts__name--icon"></i>
+                     <p class="statistics-main__info--block-parts__name--main">Примечание</p>
+                  </div>
+                  <div class="statistics-main__info--block-parts__half d-f a-i-c">
+                     <input class="input statistics-main__info--block-parts__input">
+                  </div>
+               </div>
+               <button class="btn btn-background statistics-main__info--block-btn">Сохранить</button>
+            </div>
+            <div class="statistics-main__info--photos d-f">
+               <div class="statistics-main__info--photos-part">
+                  <img src="./assets/img/statistic/statistics.png" alt="statistic">
+               </div>
+               <div class="statistics-main__info--photos-part">
+                  <img src="./assets/img/statistic/statistics1.png" alt="statistic">
+               </div>
+               <div class="statistics-main__info--photos-part">
+                  <img src="./assets/img/statistic/statistics2.png" alt="statistic">
+               </div>
+            </div>
+            <div class="statistics-main__info--remains">
+               <div class="statistics-main__info--remains-sections ">
+                  <div class="statistics-main__info--remains-sections__block search-block__parts">
+                     <h4 class="statistics-main__info--remains-sections__block--title">Остатки по складам и размерам на
+                        22.04.2021</h4>
+                     <ul class="search-block__parts--list statistics-main__info--remains-sections__block--list d-f">
+                        <li
+                           class="search-block__parts--list-item statistics-main__info--remains-sections__block--list-item">
+                           <button
+                              class="search-block__parts--list-item__link statistics-main__info--remains-sections__block--list-item__link active">Сводка</button>
+                        </li>
+                        <li
+                           class="search-block__parts--list-item statistics-main__info--remains-sections__block--list-item">
+                           <button
+                              class="search-block__parts--list-item__link statistics-main__info--remains-sections__block--list-item__link">Склады</button>
+                        </li>
+                        <li
+                           class="search-block__parts--list-item statistics-main__info--remains-sections__block--list-item">
+                           <button
+                              class="search-block__parts--list-item__link statistics-main__info--remains-sections__block--list-item__link">Размеры
+                              (нет данных)</button>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="statistics-main__info--remains-info d-f a-i-c">
+                     <div class="statistics-main__info--remains-info__orders d-f j-c-c a-i-c">Заказы</div>
+                     <div class="statistics-main__info--remains-info__city">
+                        <p
+                           class="statistics-main__info--remains-info__city--name statistics-main__info--remains-info__city--more">
+                           Москва</p>
+                        <p
+                           class="statistics-main__info--remains-info__city--name statistics-main__info--remains-info__city--few">
+                           Подольск</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="statistics-main__graphic summary">
+            <div class="main-section__block summary-graphic">
+               <div class="d-f j-c-b a-i-c">
+                  <h4 class="section-title">Отображение на графике</h4>
+               </div>
+               <div class="summary-graphic__block">
+                  <ul class="summary-graphic__block--details d-f a-i-c j-c-c">
+                     <li class="summary-graphic__block--details-item d-f a-i-c">
+                        <label class="checked d-f j-c-c a-i-c">
+                           <input type="checkbox" checked="checked" class="checkbox">
+                           <span class="checked-checkbox"></span>
+                           <p class="summary-graphic__block--details-item__text">Продажи (₽)</p>
+                        </label>
+                        <span class="summary-graphic__block--details-item__circle"></span>
+                     </li>
+                     <li class="summary-graphic__block--details-item d-f a-i-c">
+                        <label class="checked d-f j-c-c a-i-c">
+                           <input type="checkbox" checked="checked" class="checkbox">
+                           <span class="checked-checkbox"></span>
+                           <p class="summary-graphic__block--details-item__text">Продажи (₽)</p>
+                        </label>
+                        <span
+                           class="summary-graphic__block--details-item__circle summary-graphic__block--details-item__circlepink "></span>
+                     </li>
+                     <li class="summary-graphic__block--details-item d-f a-i-c">
+                        <label class="checked d-f j-c-c a-i-c">
+                           <input type="checkbox" checked="checked" class="checkbox">
+                           <span class="checked-checkbox"></span>
+                           <p class="summary-graphic__block--details-item__text">Продажи (₽)</p>
+                        </label>
+                        <span
+                           class="summary-graphic__block--details-item__circle summary-graphic__block--details-item__circleorange"></span>
+                     </li>
+                     <li class="summary-graphic__block--details-item d-f a-i-c">
+                        <label class="checked d-f j-c-c a-i-c">
+                           <input type="checkbox" checked="checked" class="checkbox">
+                           <span class="checked-checkbox"></span>
+                           <p class="summary-graphic__block--details-item__text">Продажи (₽)</p>
+                        </label>
+                        <span
+                           class="summary-graphic__block--details-item__circle summary-graphic__block--details-item__circleyellow"></span>
+                     </li>
+                  </ul>
+                  <div class="summary-graphic__block--info">
+                     <img src="./assets/img/statistic/Chart.png" alt="summary">
+                  </div>
+               </div>
+               <div class="table">
+                  <div class="table-block d-f">
+                     <div class="scrollbar">
+                        <table data-table>
+                           <thead>
+                              <tr>
+                                 <th>
+                                    <div class="thead-dropdown d-f j-c-b a-i-c">
+                                       <p>Дата</p>
+                                       <button class="icon icon-burger thead-dropdown__icon"></button>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="thead-dropdown d-f j-c-b a-i-c">
+                                       <p>Продажи</p>
+                                       <button class="icon icon-burger thead-dropdown__icon"></button>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="thead-dropdown d-f j-c-b a-i-c">
+                                       <p>Остаток</p>
+                                       <button class="icon icon-burger thead-dropdown__icon"></button>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="thead-dropdown d-f j-c-b a-i-c">
+                                       <p>Цена</p>
+                                       <button class="icon icon-burger thead-dropdown__icon"></button>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="thead-dropdown d-f j-c-b a-i-c">
+                                       <p>Со скидкой</p>
+                                       <button class="icon icon-burger thead-dropdown__icon"></button>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="thead-dropdown d-f j-c-b a-i-c">
+                                       <p>Сумма продаж</p>
+                                       <button class="icon icon-burger thead-dropdown__icon"></button>
+                                    </div>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th>
+                                    <input type="text" class="input-table cursor-pointer" name="daterange"></th>
+                                 <th>
+                                    <div class="d-f a-i-c">
+                                       <input type="text" class="input-table">
+                                       <div class="dropdown d-f a-i-c">
+                                          <button class="icon icon-filter cursor-pointer" data-expand-click
+                                             data-not-outside data-not-outside-expand data-expand="false"></button>
+                                          <div class="dropdown-list" data-expand-box data-outside-expand
+                                             data-not-outside hidden>
+                                             <div class="dropdown">
+                                                <button class="dropdown-btn d-f j-c-b a-i-c" data-sub-expand-click
+                                                   data-sub-not-outside-expand data-not-outside data-expand="false">
+                                                   <p class="dropdown-btn__selected">По артикулам</p>
+                                                   <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                      data-sub-expand-outside-icon></i>
+                                                </button>
+                                                <div class="dropdown-list" hidden data-expand-box
+                                                   data-sub-outside-expand>
+                                                   <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                      датам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      артикулам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      SKU</span></li>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      брендам</span>
+                                                </div>
+                                             </div>
+                                             <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                             <div class="filter-btn d-f j-c-e">
+                                                <button class="btn btn-color mr-10" data-expand-click>Отмена</button>
+                                                <button class="btn btn-background filter-btn--approve"
+                                                   data-close-modal>Сохранить</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="d-f a-i-c">
+                                       <input type="text" class="input-table">
+                                       <div class="dropdown d-f a-i-c">
+                                          <button class="icon icon-filter cursor-pointer" data-expand-click
+                                             data-not-outside data-not-outside-expand data-expand="false"></button>
+                                          <div class="dropdown-list" data-expand-box data-outside-expand
+                                             data-not-outside hidden>
+                                             <div class="dropdown">
+                                                <button class="dropdown-btn d-f j-c-b a-i-c" data-sub-expand-click
+                                                   data-sub-not-outside-expand data-not-outside data-expand="false">
+                                                   <p class="dropdown-btn__selected">По артикулам</p>
+                                                   <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                      data-sub-expand-outside-icon></i>
+                                                </button>
+                                                <div class="dropdown-list" hidden data-expand-box
+                                                   data-sub-outside-expand>
+                                                   <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                      датам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      артикулам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      SKU</span></li>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      брендам</span>
+                                                </div>
+                                             </div>
+                                             <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                             <div class="filter-btn d-f j-c-e">
+                                                <button class="btn btn-color mr-10" data-expand-click>Отмена</button>
+                                                <button class="btn btn-background filter-btn--approve"
+                                                   data-close-modal>Сохранить</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="d-f a-i-c">
+                                       <input type="text" class="input-table">
+                                       <div class="dropdown d-f a-i-c">
+                                          <button class="icon icon-filter cursor-pointer" data-expand-click
+                                             data-not-outside data-not-outside-expand data-expand="false"></button>
+                                          <div class="dropdown-list" data-expand-box data-outside-expand
+                                             data-not-outside hidden>
+                                             <div class="dropdown">
+                                                <button class="dropdown-btn d-f j-c-b a-i-c" data-sub-expand-click
+                                                   data-sub-not-outside-expand data-not-outside data-expand="false">
+                                                   <p class="dropdown-btn__selected">По артикулам</p>
+                                                   <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                      data-sub-expand-outside-icon></i>
+                                                </button>
+                                                <div class="dropdown-list" hidden data-expand-box
+                                                   data-sub-outside-expand>
+                                                   <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                      датам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      артикулам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      SKU</span></li>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      брендам</span>
+                                                </div>
+                                             </div>
+                                             <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                             <div class="filter-btn d-f j-c-e">
+                                                <button class="btn btn-color mr-10" data-expand-click>Отмена</button>
+                                                <button class="btn btn-background filter-btn--approve"
+                                                   data-close-modal>Сохранить</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="d-f a-i-c">
+                                       <input type="text" class="input-table">
+                                       <div class="dropdown d-f a-i-c">
+                                          <button class="icon icon-filter cursor-pointer" data-expand-click
+                                             data-not-outside data-not-outside-expand data-expand="false"></button>
+                                          <div class="dropdown-list" data-expand-box data-outside-expand
+                                             data-not-outside hidden>
+                                             <div class="dropdown">
+                                                <button class="dropdown-btn d-f j-c-b a-i-c" data-sub-expand-click
+                                                   data-sub-not-outside-expand data-not-outside data-expand="false">
+                                                   <p class="dropdown-btn__selected">По артикулам</p>
+                                                   <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                      data-sub-expand-outside-icon></i>
+                                                </button>
+                                                <div class="dropdown-list" hidden data-expand-box
+                                                   data-sub-outside-expand>
+                                                   <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                      датам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      артикулам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      SKU</span></li>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      брендам</span>
+                                                </div>
+                                             </div>
+                                             <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                             <div class="filter-btn d-f j-c-e">
+                                                <button class="btn btn-color mr-10" data-expand-click>Отмена</button>
+                                                <button class="btn btn-background filter-btn--approve"
+                                                   data-close-modal>Сохранить</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </th>
+                                 <th>
+                                    <div class="d-f a-i-c">
+                                       <input type="text" class="input-table">
+                                       <div class="dropdown d-f a-i-c">
+                                          <button class="icon icon-filter cursor-pointer" data-expand-click
+                                             data-not-outside data-not-outside-expand data-expand="false"></button>
+                                          <div class="dropdown-list" data-expand-box data-outside-expand
+                                             data-not-outside hidden>
+                                             <div class="dropdown">
+                                                <button class="dropdown-btn d-f j-c-b a-i-c" data-sub-expand-click
+                                                   data-sub-not-outside-expand data-not-outside data-expand="false">
+                                                   <p class="dropdown-btn__selected">По артикулам</p>
+                                                   <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                      data-sub-expand-outside-icon></i>
+                                                </button>
+                                                <div class="dropdown-list" hidden data-expand-box
+                                                   data-sub-outside-expand>
+                                                   <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                      датам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      артикулам</span>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      SKU</span></li>
+                                                   <span class="dropdown-list__item cursor-pointer d-block">По
+                                                      брендам</span>
+                                                </div>
+                                             </div>
+                                             <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                             <div class="filter-btn d-f j-c-e">
+                                                <button class="btn btn-color mr-10" data-expand-click>Отмена</button>
+                                                <button class="btn btn-background filter-btn--approve"
+                                                   data-close-modal>Сохранить</button>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                              <tr>
+                                 <td>17.04.2021</td>
+                                 <td>40</td>
+                                 <td>654 869,33</td>
+                                 <td>565 664 999</td>
+                                 <td>2500</td>
+                                 <td>65 105,36</td>
+                              </tr>
+                           </tbody>
+                           <tfoot>
+                              <tr>
+                                 <td>Суммарно (60 дней)</td>
+                                 <td>556 шт</td>
+                                 <td>шт</td>
+                                 <td colspan="2"></td>
+                                 <td>1 297 440,00</td>
+                              </tr>
+                              <tr>
+                                 <td>Среднее (в день)</td>
+                                 <td>9 шт</td>
+                                 <td>шт</td>
+                                 <td colspan="2"></td>
+                                 <td>1 297 440,00</td>
+                              </tr>
+                              <tr>
+                                 <td>Дней с наличием</td>
+                                 <td>9 дней</td>
+                                 <td>шт</td>
+                                 <td colspan="2"></td>
+                                 <td>1 297 440,00</td>
+                              </tr>
+                              <tr>
+                                 <td>Среднее при наличии</td>
+                                 <td>48 шт</td>
+                                 <td>шт</td>
+                                 <td colspan="2"></td>
+                                 <td>1 297 440,00</td>
+                              </tr>
+                              <tr>
+                                 <td>Потенциал</td>
+                                 <td></td>
+                                 <td>шт</td>
+                                 <td colspan="2"></td>
+                                 <td>1 297 440,00</td>
+                              </tr>
+                              <tr>
+                                 <td>Упущенная выручка</td>
+                                 <td></td>
+                                 <td>шт</td>
+                                 <td colspan="2"></td>
+                                 <td>1 297 440,00</td>
+                              </tr>
+                           </tfoot>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="table-sidebar">
+                     <div class="table-sidebar--list">
+                        <div class="table-sidebar--list-item cursor-pointer d-f j-c-c a-i-c" data-table-sidebar-filter
+                           data-expand-click data-not-outside-expand data-not-outside data-expand="false">
+                           <i class="icon icon-burger table-sidebar--list-item__icon"></i>
+                           <p class="table-sidebar--list-item__text">Столбцы</p>
+                        </div>
+                        <div class="table-sidebar--list-main " hidden data-expand-box data-outside-expand
+                           data-not-outside>
+                           <div class="table-sidebar--list-main__parts">
+                              <div class="table-sidebar--list-main__parts--search d-f a-i-c j-c-b">
+                                 <i class="icon icon-arrow table-sidebar--list-main__parts--search-icon cursor-pointer rotate"
+                                    data-toggle-click data-toggle="true" data-toggle-icon></i>
+                                 <label class="checked d-f j-c-c a-i-c table-sidebar--list-main__parts--search-checked">
+                                    <input type="checkbox" checked="checked" class="checkbox">
+                                    <span class="checked-checkbox"></span>
+                                 </label>
+                                 <input type="text" class="input" placeholder="Поиск">
+                              </div>
+                           </div>
+                           <div class="table-sidebar--list-main__items scrollbar" data-toggle-box>
+                              <div class="table-sidebar--list-main__items--checkbox d-f">
+                                 <label class="checked d-f j-c-c a-i-c ">
+                                    <input type="checkbox" checked="checked" class="checkbox">
+                                    <span class="checked-checkbox"></span>
+                                    <p class="table-sidebar--list-main__items--checkbox-text">Дата</p>
+                                 </label>
+                              </div>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon cursor-pointer rotate"
+                                       data-sub-expand-click data-expand="true" data-expand-click-icon
+                                       data-not-outside></i>
+                                    <label class="checked d-f j-c-c a-i-c ">
+                                       <input type="checkbox" checked="checked" class="checkbox">
+                                       <span class="checked-checkbox"></span>
+                                       <p class="table-sidebar--list-main__items--checkbox-text">Заказы</p>
+                                    </label>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">руб</p>
+                                          </label>
+                                       </div>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">шт</p>
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon cursor-pointer"
+                                       data-sub-expand-click data-expand="false" data-expand-click-icon
+                                       data-not-outside></i>
+                                    <label class="checked d-f j-c-c a-i-c ">
+                                       <input type="checkbox" checked="checked" class="checkbox">
+                                       <span class="checked-checkbox"></span>
+                                       <p class="table-sidebar--list-main__items--checkbox-text">Возвраты</p>
+                                    </label>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box
+                                       hidden>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">1</p>
+                                          </label>
+                                       </div>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">2</p>
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon cursor-pointer"
+                                       data-sub-expand-click data-expand="false" data-expand-click-icon
+                                       data-not-outside></i>
+                                    <label class="checked d-f j-c-c a-i-c ">
+                                       <input type="checkbox" checked="checked" class="checkbox">
+                                       <span class="checked-checkbox"></span>
+                                       <p class="table-sidebar--list-main__items--checkbox-text">Логистика</p>
+                                    </label>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box
+                                       hidden>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">1</p>
+                                          </label>
+                                       </div>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">2</p>
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon cursor-pointer"
+                                       data-sub-expand-click data-expand="false" data-expand-click-icon
+                                       data-not-outside></i>
+                                    <label class="checked d-f j-c-c a-i-c ">
+                                       <input type="checkbox" checked="checked" class="checkbox">
+                                       <span class="checked-checkbox"></span>
+                                       <p class="table-sidebar--list-main__items--checkbox-text">Продажи</p>
+                                    </label>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box
+                                       hidden>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">1</p>
+                                          </label>
+                                       </div>
+                                       <div class="table-sidebar--list-main__items--checkbox-underpart__block d-f">
+                                          <label class="checked d-f j-c-c a-i-c ">
+                                             <input type="checkbox" checked="checked" class="checkbox">
+                                             <span class="checked-checkbox"></span>
+                                             <p class="table-sidebar--list-main__items--checkbox-text">2</p>
+                                          </label>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="table-sidebar--list">
+                        <div class="table-sidebar--list-item cursor-pointer d-f j-c-c a-i-c" data-table-sidebar-filter
+                           data-expand-click data-not-outside-expand data-not-outside data-expand="false">
+                           <i class="icon icon-filter table-sidebar--list-item__icon"></i>
+                           <p class="table-sidebar--list-item__text">Фильтры</p>
+                        </div>
+                        <div class="table-sidebar--list-main " hidden data-expand-box data-outside-expand
+                           data-not-outside>
+                           <div class="table-sidebar--list-main__parts">
+                              <div class="table-sidebar--list-main__parts--search d-f a-i-c j-c-b">
+                                 <i class="icon icon-arrow table-sidebar--list-main__parts--search-icon cursor-pointer rotate"
+                                    data-toggle-click data-toggle="true" data-toggle-icon></i>
+                                 <input type="text" class="input" placeholder="Поиск">
+                              </div>
+                           </div>
+                           <div class="table-sidebar--list-main__items scrollbar" data-toggle-box>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w cursor-pointer"
+                                    data-sub-expand-click data-expand="true">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon  rotate"
+                                       data-sub-expand-icon></i>
+                                    <p class="table-sidebar--list-main__items--checkbox-text d-f a-i-c">Дата</p>
+                                 </div>
+                                 <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart__block">
+
+                                       <div class="table-sidebar__dropdown">
+                                          <div class="dropdown">
+                                             <button class="dropdown-btn table-sidebar__dropdown--btn d-f j-c-b a-i-c"
+                                                data-sub-expand-click data-sub-not-outside-expand data-not-outside
+                                                data-expand="false">
+                                                <p class="dropdown-btn__selected">По артикулам</p>
+                                                <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                   data-sub-expand-outside-icon></i>
+                                             </button>
+                                             <div class="dropdown-list" hidden data-expand-box data-sub-outside-expand>
+                                                <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                   датам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   артикулам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По SKU</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   брендам</span>
+                                             </div>
+                                          </div>
+                                          <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                          <div class="d-f">
+                                             <button class="btn btn-color mr-10 sidebar-btn">Отмена</button>
+                                             <button class="btn btn-background sidebar-btn">Сохранить</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w cursor-pointer"
+                                    data-sub-expand-click data-expand="true">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon  rotate"
+                                       data-sub-expand-icon></i>
+                                    <p class="table-sidebar--list-main__items--checkbox-text d-f a-i-c">Заказы</p>
+                                 </div>
+                                 <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart__block">
+                                       <div class="d-f a-i-c cursor-pointer" data-sub-expand-click data-expand="false">
+                                          <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-underpart__block--icon"
+                                             data-sub-expand-icon></i>
+                                          <p class="table-sidebar--list-main__items--checkbox-text">руб</p>
+                                       </div>
+                                       <div class="table-sidebar__dropdown" data-expand-box hidden>
+                                          <div class="dropdown">
+                                             <button class="dropdown-btn table-sidebar__dropdown--btn d-f j-c-b a-i-c"
+                                                data-sub-expand-click data-sub-not-outside-expand data-not-outside
+                                                data-expand="false">
+                                                <p class="dropdown-btn__selected">По артикулам</p>
+                                                <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                   data-sub-expand-outside-icon></i>
+                                             </button>
+                                             <div class="dropdown-list" hidden data-expand-box data-sub-outside-expand>
+                                                <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                   датам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   артикулам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По SKU</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   брендам</span>
+                                             </div>
+                                          </div>
+                                          <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                          <div class="d-f">
+                                             <button class="btn btn-color mr-10 sidebar-btn">Отмена</button>
+                                             <button class="btn btn-background sidebar-btn">Сохранить</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart__block">
+                                       <div class="d-f a-i-c cursor-pointer" data-sub-expand-click data-expand="true">
+                                          <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-underpart__block--icon rotate"
+                                             data-sub-expand-icon></i>
+                                          <p class="table-sidebar--list-main__items--checkbox-text">шт</p>
+                                       </div>
+                                       <div class="table-sidebar__dropdown" data-expand-box>
+                                          <div class="dropdown">
+                                             <button class="dropdown-btn table-sidebar__dropdown--btn d-f j-c-b a-i-c"
+                                                data-sub-expand-click data-sub-not-outside-expand data-not-outside
+                                                data-expand="false">
+                                                <p class="dropdown-btn__selected">По артикулам</p>
+                                                <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                   data-sub-expand-outside-icon></i>
+                                             </button>
+                                             <div class="dropdown-list" hidden data-expand-box data-sub-outside-expand>
+                                                <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                   датам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   артикулам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По SKU</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   брендам</span>
+                                             </div>
+                                          </div>
+                                          <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                          <div class="d-f">
+                                             <button class="btn btn-color mr-10 sidebar-btn">Отмена</button>
+                                             <button class="btn btn-background sidebar-btn">Сохранить</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="table-sidebar--list-main__items--checkbox">
+                                 <div class="table-sidebar--list-main__items--checkbox-dropdown d-f f-w cursor-pointer"
+                                    data-sub-expand-click data-expand="false">
+                                    <i class="icon icon-arrow table-sidebar--list-main__items--checkbox-dropdown__icon"
+                                       data-sub-expand-icon></i>
+                                    <p class="table-sidebar--list-main__items--checkbox-text d-f a-i-c">Возвраты</p>
+                                 </div>
+                                 <div class="table-sidebar--list-main__items--checkbox-underpart" data-expand-box
+                                    hidden>
+                                    <div class="table-sidebar--list-main__items--checkbox-underpart__block">
+                                       <div class="table-sidebar__dropdown">
+                                          <div class="dropdown">
+                                             <button class="dropdown-btn table-sidebar__dropdown--btn d-f j-c-b a-i-c"
+                                                data-sub-expand-click data-sub-not-outside-expand data-not-outside
+                                                data-expand="false">
+                                                <p class="dropdown-btn__selected">По артикулам</p>
+                                                <i class="icon icon-arrow dropdown-btn__arrow" data-sub-expand-icon
+                                                   data-sub-expand-outside-icon></i>
+                                             </button>
+                                             <div class="dropdown-list" hidden data-expand-box data-sub-outside-expand>
+                                                <span class="dropdown-list__item cursor-pointer d-block"> По
+                                                   датам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   артикулам</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По SKU</span>
+                                                <span class="dropdown-list__item cursor-pointer d-block">По
+                                                   брендам</span>
+                                             </div>
+                                          </div>
+                                          <input type="text" class="input mt-10 mb-10" placeholder="Фильтровать">
+                                          <div class="d-f">
+                                             <button class="btn btn-color mr-10 sidebar-btn">Отмена</button>
+                                             <button class="btn btn-background sidebar-btn">Сохранить</button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="table-sidebar--list">
+                        <div class="table-sidebar--list-item cursor-pointer d-f j-c-c a-i-c" data-table-sidebar-filter
+                           data-expand-click data-not-outside-expand data-not-outside data-expand="false">
+                           <i class="icon icon-slider table-sidebar--list-item__icon"></i>
+                           <p class="table-sidebar--list-item__text">Настройки</p>
+                        </div>
+                        <div class="table-sidebar--list-main " hidden data-expand-box data-outside-expand
+                           data-not-outside>
+                           <div class="table-sidebar--list-main__settings scrollbar">
+                              <div class="table-sidebar--list-main__settings--block">
+                                 <div class="table-sidebar--list-main__settings--block-list d-f a-i-c cursor-pointer"
+                                    data-sub-expand-click data-expand="true">
+                                    <i class="icon icon-arrow table-sidebar--list-main__settings--block-list__icon rotate"
+                                       data-sub-expand-icon></i>
+                                    <p class="table-sidebar--list-main__settings--block-list__text">Столбцы</p>
+                                 </div>
+                                 <div class="table-sidebar--list-main__settings--block-btn" data-expand-box>
+                                    <button class="table-sidebar--list-main__settings--block-btn__main"
+                                       data-change-active>Сбросить
+                                       колонки</button>
+                                    <button class="table-sidebar--list-main__settings--block-btn__main"
+                                       data-change-active>Автоширина</button>
+                                    <button class="table-sidebar--list-main__settings--block-btn__main"
+                                       data-change-active>По ширине
+                                       таблицы</button>
+                                 </div>
+                              </div>
+                              <div class="table-sidebar--list-main__settings--block">
+                                 <div class="table-sidebar--list-main__settings--block-list d-f a-i-c cursor-pointer"
+                                    data-sub-expand-click data-expand="true">
+                                    <i class="icon icon-arrow table-sidebar--list-main__settings--block-list__icon rotate"
+                                       data-sub-expand-icon></i>
+                                    <p class="table-sidebar--list-main__settings--block-list__text">Пресеты фильтров</p>
+                                 </div>
+                                 <div class="table-sidebar--list-main__settings--block-btn" data-expand-box>
+                                    <button class="table-sidebar--list-main__settings--block-btn__main"
+                                       data-change-active>Сохранить фильтр</button>
+                                    <button class="table-sidebar--list-main__settings--block-btn__main"
+                                       data-change-active>Сбросить фильтр</button>
+                                    <button class="table-sidebar--list-main__settings--block-btn__main"
+                                       data-change-active>Сохраненные фильтры</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="table-sidebar--list">
+                        <div class="table-sidebar--list-item d-f j-c-c a-i-c cursor-pointer">
+                           <i class="icon icon-question-1 table-sidebar--list-item__icon"></i>
+                           <p class="table-sidebar--list-item__text">Помощь</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="table-block__down d-f j-c-b a-i-c">
+                     <div class="table-block__down--btn d-f">
+                        <button class="btn btn-background table-block__down--btn-main">Скачать CSV</button>
+                        <button class="btn btn-background table-block__down--btn-main">Скачать Excel(.xlsx)</button>
+                     </div>
+                     <div class="table-block__down--pages d-f a-i-c">
+                        <p class="table-block__down--pages-info">1 к 100 из 250</p>
+                        <div class="table-block__down--pages-part d-f a-i-c">
+                           <button class="icon icon-arrow-left-start table-block__down--pages-part__btn"></button>
+                           <button class="icon icon-arrow-left table-block__down--pages-part__btn"></button>
+                           <p class="table-block__down--pages-part__text">Страница 1 из 3</p>
+                           <button class="icon icon-arrow-right table-block__down--pages-part__btn"></button>
+                           <button class="icon icon-arrow-right-end table-block__down--pages-part__btn"></button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+
+</body>
+
+
+<!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+<script src="./assets/js/jquery-3.2.1.min.js"></script>
+<script src="./assets/js/resizable.js"></script>
+<script src="./assets/js/daterangepicker.js"></script>
+<script src="./assets/js/date.js"></script>
+<!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+
+<!-- ======================= -SCRIPT-MY-START- ======================= -->
+<script src="./assets/js/scripts.js"></script>
+<!-- ======================== -SCRIPT-MY-END- ======================== -->
+
+
+</html>

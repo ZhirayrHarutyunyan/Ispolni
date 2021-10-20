@@ -1,0 +1,78 @@
+.rubricators {
+   &-block {
+      padding-top: 15px;
+
+      &__list {
+
+         &--item {
+            user-select: none;
+
+            &-link {
+               border-radius: var(--border-radius);
+               background-color: var(--neutral_color_white);
+
+               &+& {
+                  margin-top: 10px;
+               }
+
+               &__main {
+                  position: relative;
+                  padding: 10px 20px;
+                  transition: var(--transition-global);
+
+                  &--title {
+                     font: rem(15px) $Regular;
+                     line-height: rem(22px);
+                     color: var(--default_dark)
+                  }
+
+                  &--icon {
+                     color: var(--primary_color_dark);
+                  }
+
+                  &:hover {
+                     background: #E1F7EA;
+                  }
+               }
+
+
+               &__subblock {
+                  padding: 0 40px 10px;
+
+                  &--part {
+                     clear: both;
+
+                     padding: 10px 0;
+
+                     &-title {
+                        font: rem(15px) $Regular;
+                        line-height: rem(22px);
+                        color: var(--default_dark);
+
+                        &:hover {
+                           color: var(--primary_color_dark);
+                           transition: var(--transition-global);
+                        }
+                     }
+
+                     &-icon {
+                        color: var(--primary_color_dark);
+                        float: right;
+                     }
+
+                     &-main {
+                        padding: 10px 20px 0;
+
+                        &__url {
+                           &+& {
+                              margin-top: 10px;
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

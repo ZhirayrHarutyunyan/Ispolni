@@ -1,0 +1,51 @@
+.border-style {
+   border-top: 5px solid var(--primary_color_dark);
+   position: relative;
+
+   &__main {
+      height: 1px;
+      background-color: #F2F2F7;
+      position: relative;
+      margin: 20px -30px 0;
+   }
+}
+
+.border-style__menu {
+   height: 1px;
+   background-color: #F2F2F7;
+   position: relative;
+   margin: 2px -30px 0;
+
+}
+
+.account-block {
+   min-width: 500px;
+   width: 100%;
+
+   &+& {
+      margin-left: 30px;
+   }
+
+   &__main {
+      margin-top: 35px;
+
+      &--list {
+         &-item {
+            margin-bottom: 20px;
+
+            &__text {
+               font: rem(11px) $Bold;
+               margin-bottom: 7px;
+               text-transform: uppercase;
+               color: #BBBBBB;
+            }
+
+            &__btn {
+               width: 100%;
+               margin-top: 27px;
+            }
+         }
+      }
+   }
+
+}
